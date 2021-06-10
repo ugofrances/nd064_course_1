@@ -27,7 +27,7 @@ def metrics():
     )
 
 ## log line
-    app.logger.info('Metrics request successfull')
+    app.logger.info('{{TIMESTAMP}}, {{ ENDPOINT_NAME}} endpoint was reached')
     return response
 
 
