@@ -1,5 +1,3 @@
-pip install -r requirements.txt
-
 from flask import Flask
 from flask import json
 
